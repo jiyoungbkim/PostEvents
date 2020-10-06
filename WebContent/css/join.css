@@ -1,0 +1,80 @@
+@charset:"utf-8";
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body        {font-family:Nanum Barun Gothic; background:#6dacb8;}
+
+
+#access dt {width:100%; height:0; font-size:0; line-height:0; }
+#access a {display:block; position:absolute; top:-10000px; left:0; height:0;}
+
+
+/*header css*/
+
+#big-box {padding-top:20px;}
+#big-box .nav {width:1200px; margin:0 auto; height:180px; background-color:#fff;  overflow:hidden; }
+#big-box .nav-menu li { font-family: 'Titillium Web'; padding:50px 20px 50px 20px; float:left;  font-size:15px; font-weight:600; letter-spacing:0.5px;}
+#big-box .nav-menu li a:hover {color:#76b7c0; transition:all 0.3s; }
+#big-box .nav .logo {float:left; width:340px; padding-top:20px; }
+#big-box .nav .logo .el-logo {padding-left:30px; text-align:center;}
+#big-box .side-bar {width:400px; float:right; padding:50px 15px 50px 0;}
+.side-menu li {float:right; width:34px; height:34px; border-radius:100px; background:#87cedc; text-align:center; line-height:34px; margin-left:4px;}
+.side-menu li a {color:#fff; font-size:14px; padding:5px;}
+.side-text li {float:right; font-size:11px; color:#999; font-weight:bold; margin: 7px 10px 0px 0px;}
+
+
+
+ /* sub-notice */
+
+.notice {width:1200px; background:#fff; margin:0 auto; }
+.notice .sub-notice {padding-left:30px; text-align:center; }
+.notice .sub-notice h2 {font-size:45px; color:#6dacb8; padding-top:40px;}
+.notice .sub-notice h2 span {padding-bottom: 10px; }
+.notice .sub-notice p {font-size:23px; color:#777; padding-bottom:20px; text-align:center;}
+
+
+/*join css*/
+.join-box {overflow:hidden;}
+.join {width:100%; margin:0 auto; }
+.join .id_pw {width:40%; margin:0 auto; text-align:center; border:1px solid #e1e1e1; background:#f1f1f1; margin-top:30px; padding:7px;}
+.id_pw .id_box {width:60%; height:50px; border:none; background:#fff; font-size:15px; font-family:Nanum Barun Gothic; color:#444444; margin: 7px 7px 5px 0px; padding-left:4px;}
+.id_pw .pw {width:87%; height:50px; border:none; background:#fff; font-size:15px; font-family:Nanum Barun Gothic; color:#444444; margin:5px; padding-left:4px;}
+.check_id {width: 25%; height: 52px; border:1px solid #e1e1e1;  background:#fff; color:#6dacb8; font-size:16px; padding:5px 10px;vertical-align: middle;}
+.id_use {width: 35%; height: 40px; border:1px solid #e1e1e1;  background:#fff; color:#6dacb8; font-size:16px; padding:5px 10px;vertical-align: middle;}
+.id_pw li i .fas fa-id-card-alt fa-2x {float:left;}
+.id_pw li i {color: #666; float: left; margin-left: 7px; margin-top: 12px; vertical-align: middle;}
+.id_pw input[type="password"] {margin-left:10px;}
+
+.name_phone  {width:40%; margin:0 auto; text-align:center; border:1px solid #e1e1e1; background:#f1f1f1; padding:7px; margin-top:10px;}
+.name_phone input {width:95%; height:50px; border:none; background:#fff; font-size:15px; font-family:Nanum Barun Gothic; color:#444444; margin:5px; padding-left:7px; }
+/*.name_phone .phone {width:72%;}*/
+.name_phone .certifi {cursor:pointer; width:20%; border:1px solid #e1e1e1; color:#6dacb8; letter-spacing:6px; }
+.name_phone input.email {width:33%;}
+.name_phone select.email {width:22%; height:40px; }
+
+.check {width:40%; margin:0 auto; text-align:center; background:#f1f1f1; padding:7px; margin-top:10px; padding:30px 0px;}
+.check input[type="radio"], .check input[type="checkbox"] {margin:10px 5px;}
+.check li a {border:1px solid #e1e1e1;  background:#fff; color:#6dacb8; font-size:16px; padding:5px 10px;}
+
+.signup {width:43.5%; margin:0 auto; padding:20px;}
+.signup input[type="button"] {width:100%; font-size:35px; background:#6dacb8; color:#fff; font-weight:bold; border:none; cursor:pointer;}
+
+.login_img {width:100%; list-style:none; float:left; padding-left:210px; cursor:pointer; margin-bottom:200px;}
+.login_img .photo1 {width:194px; height:50px; background:url(../images/join_01.jpg) no-repeat; float:left; margin-right:10px;}
+.login_img .photo2 {width:194px; height:50px; background:url(../images/join_02.jpg) no-repeat; float:left;}
+.login_img .photo3 {width:194px; height:50px; background:url(../images/join_03.jpg) no-repeat; float:left;}
+.login_img .photo4 {width:194px; height:50px; background:url(../images/join_04.jpg) no-repeat; float:left;}
+
+ /* footer css */
+ 
+#footer {margin:0 auto; width:1200px; height:100px; background:#fff; clear:both; font-family:Nanum Barun Gothic; overflow:hidden; margin-bottom:20px;}
+#footer .footer-text {margin:0 auto; width:1170px; height:90px; border-top:1px solid #d1d1d1; padding-top:30px;}
+#footer .footer-text .sub-logo li {float:left; font-size:20px; font-weight:bold; color:#222222;}
+#footer .footer-text .sub-logo li a:hover {color:#76b7c0; transition:all 0.3s;}
+#footer .footer-text .copy li{ float:right; font-size:12px; color:#444444; }
+ 
+
+ 
+
+
+

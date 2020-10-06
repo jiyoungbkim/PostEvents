@@ -1,0 +1,62 @@
+@charset:"utf-8";
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body        {font-family:Nanum Barun Gothic; background:#6dacb8;}
+
+
+#access dt {width:100%; height:0; font-size:0; line-height:0; }
+#access a {display:block; position:absolute; top:-10000px; left:0; height:0;}
+
+
+/*header css*/
+
+#big-box {padding-top:20px;}
+#big-box .nav {width:1200px; margin:0 auto; height:180px; background-color:#fff; overflow:hidden; }
+#big-box .nav-menu li { font-family: 'Titillium Web'; padding:50px 20px 50px 20px; float:left;  font-size:15px; font-weight:600; letter-spacing:0.5px;}
+#big-box .nav-menu li a:hover {color:#76b7c0; transition:all 0.3s; }
+#big-box .nav .logo {float:left; width:340px; padding-top:20px; }
+#big-box .nav .logo .el-logo {padding-left:30px; text-align:center;}
+#big-box .side-bar {width:400px; float:right; padding:50px 15px 50px 0;}
+.side-menu li {float:right; width:34px; height:34px; border-radius:100px; background:#87cedc; text-align:center; line-height:34px; margin-left:4px;}
+.side-menu li a {color:#fff; font-size:14px; padding:5px;}
+.side-text li {float:right; font-size:11px; color:#999; font-weight:bold; margin: 7px 10px 0px 0px;}
+
+
+/*main visual css*/
+#main-visual {width:1200px; overflow:hidden; margin:0 auto;}
+#main-visual .main-photo p{float:left;}
+#main-visual .main-photo .main1 { background:url(../images/main1.jpg) no-repeat center center; width:423.333333px; height:530px; background-size:cover;}
+#main-visual .main-photo .main2 { background:url(../images/main2.jpg) no-repeat center center; width:423.333333px; height:530px; background-size:cover;}
+#main-visual .main-photo .main3 { background:url(../images/main3.jpg) no-repeat center center; width:423.333333px; height:530px; background-size:cover;}
+			
+/* artist css */
+
+.artist {width:1200px; overflow:hidden; margin:0 auto; background-color:#fff;}
+.artist .text {margin:0 auto; text-align:center; font-size:75px; color:#444444;}
+.artist h2 {font-size:50px; letter-spacing:3px; margin-bottom:-20px;}
+.up, .down {width:1200px; float:left; margin:0 auto; padding-left:19px;}
+.up p , .down p {float:left; padding:10px 20px; box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);  }
+.up a , .down a:hover {transition:all 0.3s; }
+.up-text {float:left; margin:0 auto; width:1200px; margin-bottom:30px;}
+.up-text p {float:left; text-align:center; color:#777; font-size:12px; padding:10px 60px ; }
+.up-text p:nth-child(1) {margin:0 30px;}
+.up-text p:nth-child(4) {padding-left:80px;}
+.up-text p a {font-size:16px; color:#444444; font-weight:600;}
+.up-text p a:hover {color:#87cedc; transition:all 0.3s;}
+.down-text {float:left; margin:0 auto; width:1200px; margin-bottom:150px;}
+.down-text p {float:left; text-align:center; color:#777; font-size:12px; padding:10px 110px ;}
+.down-text p:nth-child(1) {padding:10px 75px 0 75px;}
+.down-text p a {font-size:16px; color:#444444; font-weight:600;}
+.down-text p a:hover {color:#87cedc; transition:all 0.3s;}
+/* footer css */
+ 
+#footer {margin:0 auto; width:1200px; height:100px; background:#fff; clear:both; font-family:Nanum Barun Gothic; overflow:hidden; margin-bottom:20px;}
+#footer .footer-text {margin:0 auto; width:1170px; height:90px; border-top:1px solid #d1d1d1; padding-top:30px;}
+#footer .footer-text .sub-logo li {float:left; font-size:20px; font-weight:bold; color:#222222;}
+#footer .footer-text .sub-logo li a:hover {color:#76b7c0; transition:all 0.3s;}
+#footer .footer-text .copy li{ float:right; font-size:12px; color:#444444; }
+ 
+ 
+
+

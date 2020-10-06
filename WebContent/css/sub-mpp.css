@@ -1,0 +1,55 @@
+@charset:"utf-8";
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body        {font-family:Nanum Barun Gothic; background:#6dacb8;}
+
+
+#access dt {width:100%; height:0; font-size:0; line-height:0; }
+#access a {display:block; position:absolute; top:-10000px; left:0; height:0;}
+
+
+/*header css*/
+
+#big-box {padding-top:20px;}
+#big-box .nav {width:1200px; margin:0 auto; height:180px; background-color:#fff; overflow:hidden; }
+#big-box .nav-menu li { font-family: 'Titillium Web'; padding:50px 20px 50px 20px; float:left;  font-size:15px; font-weight:600; letter-spacing:0.5px;}
+#big-box .nav-menu li a:hover {color:#76b7c0; transition:all 0.3s; }
+#big-box .nav .logo {float:left; width:340px; padding-top:20px; }
+#big-box .nav .logo .el-logo {padding-left:30px; text-align:center;}
+#big-box .side-bar {width:400px; float:right; padding:50px 15px 50px 0;}
+.side-menu li {float:right; width:34px; height:34px; border-radius:100px; background:#87cedc; text-align:center; line-height:34px; margin-left:4px;}
+.side-menu li a {color:#fff; font-size:14px; padding:5px;}
+.side-text li {float:right; font-size:11px; color:#999; font-weight:bold; margin: 7px 10px 0px 0px;}
+
+
+/*main visual css*/
+#main-visual {width:1200px; overflow:hidden; margin:0 auto;}
+#main-visual .main-photo p{float:left;}
+#main-visual .main-photo .main1 { background:url(../images/main1.jpg) no-repeat center center; width:423.333333px; height:530px; background-size:cover;}
+#main-visual .main-photo .main2 { background:url(../images/main2.jpg) no-repeat center center; width:423.333333px; height:530px; background-size:cover;}
+#main-visual .main-photo .main3 { background:url(../images/main3.jpg) no-repeat center center; width:423.333333px; height:530px; background-size:cover;}
+			
+/* mpp css */
+.contact-big-box {width:1200px; background-color:#fff; margin:0 auto; padding:20px 0px 100px 40px; overflow:hidden;}
+.contact-big-box h2 {font-size:35px; color:#444444;}
+.contact-big-box .under-bar {font-size:70px; color:#444444; margin:-10px 0 40px 0;}
+.mpp-img {width:100%; padding-bottom:50px; float:left; }
+.mpp-img .img {float:left; border-radius:100%;  margin-right:20px; width:60px; height:60px;}
+.mpp-img .text {float:left;}
+.mpp-img h3 {float:left; font-size:20px; padding-bottom:10px; color: #444444; }
+.mpp-img p {float:left; font-size:14px; color: #888;}
+
+ /* footer css */
+ 
+#footer {margin:0 auto; width:1200px; height:100px; background:#fff; clear:both; font-family:Nanum Barun Gothic; overflow:hidden; margin-bottom:20px;}
+#footer .footer-text {margin:0 auto; width:1170px; height:90px; border-top:1px solid #d1d1d1; padding-top:30px;}
+#footer .footer-text .sub-logo li {float:left; font-size:20px; font-weight:bold; color:#222222;}
+#footer .footer-text .sub-logo li a:hover {color:#76b7c0; transition:all 0.3s;}
+#footer .footer-text .copy li{ float:right; font-size:12px; color:#444444; }
+ 
+
+ 
+
+
+
